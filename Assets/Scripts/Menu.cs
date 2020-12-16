@@ -9,7 +9,6 @@ public class Menu : MonoBehaviour
     }
     public void QuitGame()
     {
-        Application.Quit();   //Unity editörde çalışmaz.      
-        Debug.Log("quit");
+        Application.Quit();   //Unity editörde çalışmaz.              
     }
 }
